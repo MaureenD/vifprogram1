@@ -1,0 +1,250 @@
+/*
+ * Author: http://stuffandnonsense.co.uk/blog/about/hardboiled_css3_media_queries/
+ */
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+	#portfolio .portfolio-row .portfolio-mix{width:100%;}
+	#portfolio .portfolio-row .portfolio-mix .portfolio-item a:hover .caption-bg::before {-webkit-box-shadow: inset 0 0 0 200px #F6464A;-moz-box-shadow: inset 0 0 0 200px #F6464A;
+	box-shadow: inset 0 0 0 200px #F6464A ;}
+	#about .square-outline {height: 80px;width: 80px;}
+	#about h1,#team h1,#services h1,#portfolio h1, #testimonials h1,#blogpost h1,#contact h1,.item-title h1,.item-title h1 {font-size: 2.25em;line-height: normal;}
+	.team-social a {padding: 10px 18px;}
+	#portfolio .portfolio-row .portfolio-mix .portfolio-item a:hover .portfolio-item-description {top: 34%;}
+	#portfolio .portfolio-row .portfolio-mix .portfolio-item a:hover h3 {top: 14%;}
+	.portfolio-popup {max-width: 90%;}
+	#post-slider li.slide article p{padding:12px 0;}
+	li.slide article{padding:0 52px;}
+	#portfolio .cat-list{margin-top:40px;}
+	.item-overview{margin:0 20px;}
+	.item-skills{margin:0;}
+	#carousel-3-0-slide0,#carousel-3-0-slide1,#carousel-3-0-slide2{
+	background-image:none;
+	}
+   h1 {font-size: 24px; 
+   line-height:40px !important;}
+   /*h2 {font-size: 1.75em !important;}
+   h3 {font-size: 1.5em !important;}
+   h4 {font-size: 1.25em !important;}*/
+   div.bx-viewport {
+  
+   }
+	.gateway{
+    background: transparent url('../images/samerica-sm.png') no-repeat top right;
+	}
+	.program{
+	    margin-top:0;
+	}
+    .red-banner span h2{
+    top: -8px;
+    font-size: 18px;
+    text-align: center;
+    } 
+    .app-img{
+        margin-top:20px;
+    }
+    #values .portfolio-row .portfolio-mix .portfolio-item a .portfolio-item-description {
+    font-size: .7em;
+    line-height: 1.5;
+    margin-bottom:0;
+    }
+    #values .portfolio-row .portfolio-mix .portfolio-item a .meta h4 {
+    font-size: 14px;
+    line-height: 1;
+    }
+    #program-nav, #about-nav, #press-nav, #app-nav{
+        left:0px;
+        top:100px;
+        width:55%;
+        line-height:1;
+    }
+    #my-nav{
+        margin-right:0px;
+        top: 0px;
+    }
+    #my-nav>ul>li>a{
+        font-size:1.4em;
+    }
+    .navbar .navbar-collapse{
+        margin-top:0px;
+    }
+    .sub>ul {
+        padding-top:5px !important;
+    }
+    #passport{
+        background:none;
+    }
+    #passport footer {
+        width:400px;
+    }
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen 
+and (min-width : 321px) {
+/* Styles */
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen 
+and  }(max-width : 320px) {
+/* Styles */
+}
+
+/* Other -------------------*/
+@media only screen
+and (min-device-width: 480px)
+and (max-device-width: 767px){
+ img.logo{
+    max-width:80%;
+}
+#program-nav, #about-nav, #press-nav, #app-nav{
+    left:20px;
+    top:100px;
+    ul .navbar .navbar-collapse{
+        text-align: left;
+    }
+}
+.navbar-collapse.in {
+    overflow-y: inherit !important;
+    }      
+}
+/* iPads (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+  .navbar .navbar-nav {
+    float: right;
+    margin: 2px 0 2px 0;
+  }
+  .navbar .navbar-nav li {
+    margin-left: 3px;
+
+  }
+  .navbar .navbar-nav li a {
+    display: inline-block;
+    padding: 8px 12px;
+    //color: #717171;
+  }
+  .navbar .navbar-collapse {
+    background-color: rgba(255, 255, 255, 0);
+    text-align: right;
+    -webkit-box-shadow: inset 0 4px 0 rgba(0, 0, 0, 0);
+    -moz-box-shadow: inset 0 4px 0 rgba(0, 0, 0, 0);
+    box-shadow: inset 0 4px 0 rgba(0, 0, 0, 0);
+    margin-top: 0;
+  }
+#about .square-outline {
+    height: 100px;
+    width: 100px;
+  }
+  #about .square-outline .about-photo-anchor img {
+    margin: 0;
+  }
+  #portfolio .cat-list {
+    text-align: center;
+    list-style-type: none;
+    margin: 40px 0 0 0;
+  }
+  #portfolio .cat-list li {
+    display: inline-block;
+    margin: 0;
+    padding: 6px 20px;
+  }
+  #testimonials .da-slider {
+    height: 320px;
+  }
+  .da-arrows-prev {
+    left: 30%;
+
+  }
+  .da-arrows-next {
+    right: 30%;
+  }    
+  #portfolio .portfolio-row .portfolio-mix{
+    width:33.333%; 
+    }
+}
+
+/* iPads (landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+/* Styles */
+}
+
+/* iPads (portrait) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {
+/* Styles */
+}
+
+/* Desktops and laptops ----------- */
+@media only screen 
+and (min-width : 992px) {
+  .navbar .navbar-nav {
+    float: right;
+    margin: 2px 0 2px 0;
+  }
+  .navbar .navbar-nav li {
+    margin-left: 5px;
+  }
+  .navbar .navbar-nav li a {
+    display: inline-block;
+    padding: 8px 16px;
+    //color: #717171;
+  }
+  .navbar .navbar-collapse {
+    background-color: rgba(255, 255, 255, 0);
+    text-align: right;
+    -webkit-box-shadow: inset 0 4px 0 rgba(0, 0, 0, 0);
+    -moz-box-shadow: inset 0 4px 0 rgba(0, 0, 0, 0);
+    box-shadow: inset 0 4px 0 rgba(0, 0, 0, 0);
+  }
+  #about .square-outline {
+    height: 164px;
+    width: 164px;
+  }
+
+  #testimonials .da-slider {
+    height: 300px;
+  }
+}
+/* Medium screens ----------- */
+@media only screen 
+and (min-width : 1224px) {
+  .banner {
+    height: 100%;
+   
+  }
+  #testimonials .da-slider {
+    height: 280px;
+  }
+  .da-arrows-prev {
+    left: 40%;
+  }
+  .da-arrows-next {
+    right: 40%;
+  }
+  .da-arrows span {
+    opacity: 0;
+  }
+}
+
+/* Large screens ----------- */
+@media only screen 
+and (min-width : 1824px) {
+/* Styles */
+}
+
+/* iPhone 4 ----------- */
+@media
+only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5) {
+/* Styles */
+}

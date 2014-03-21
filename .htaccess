@@ -1,0 +1,8 @@
+### MAIN DEFAULTS
+##Options +ExecCGI -Indexes
+##DirectoryIndex index.php
+##DefaultLanguage en-US
+##AddDefaultCharset UTF-8
+##ServerSignature Off
+##RewriteCond %{REQUEST_FILENAME}.php -f
+##RewriteRule !.*\.php$ %{REQUEST_FILENAME}.php [L,QSA]

@@ -1,0 +1,38 @@
+.btn-contact(){
+    font-family: BrandonPrinted-Two;
+     color:@vif-red;
+     background-color:transparent;
+     font-size:1.5em;
+     text-decoration: none;
+    .arrow{
+        font-family: BrandonPrinted-Extras;
+        font-size:1em;
+    }
+    .btn:focus, .btn:active:focus, .btn:active{
+    outline:thin dotted;
+    -webkit-box-shadow:none;
+    box-shadow:none;
+    }
+}
+.img-responsive{
+    display:block;
+    max-width:100%;
+    height:auto;
+}
+// Mixin
+.center-block() {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.img-backer(@padding){
+   padding: @padding;
+    background-size: cover;
+   text-align:center;
+   box-shadow: 1px 1px 1px rgba(126, 111, 111, 0.73);
+   -webkit-box-shadow: 1px 1px 1px rgba(126, 111, 111, 0.73);  
+   img{
+       margin-left:5px;
+       margin-top:-5px;
+   }
+}
